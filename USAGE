@@ -1,0 +1,12 @@
+bs repo add horde /nexus/horde
+  # /nexus/horde/.bs_repo generated # just name of repo
+  # bs config adds that to bs.yaml  # name & path
+
+bs repo list
+  horde
+  stash
+
+cd /nexus/horde/tv/
+bs status
+  # reports "in repo horde" not scanned
+bs scan 
